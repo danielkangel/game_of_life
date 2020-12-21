@@ -1,3 +1,7 @@
-import board_gen as bg
+import board as b
 
-print(bg.random_state(5, 5))
+board1 = b.Board(50, 50)
+board1.random_state()
+board1.render()
+
+
